@@ -1,0 +1,24 @@
+{
+  "artists": [
+    { "id": "r11wxPI0M", "first_name": "Edgar", "last_name": "Degas" },
+    { "id": "S1YPeP8Cf", "first_name": "Gustav", "last_name": "Klimt" }
+  ],
+  "artworks": [
+    {
+      "id": "rJKjgDLRM",
+      "title": "Lorenzo Pagans and Auguste de Gas",
+      "year": 1871,
+      "category": "Painting",
+      "img_url": "http://www.musee-orsay.fr/typo3temp/zoom/tmp_71b5420b780f26b8b260e13c649a7b11.gif",
+      "artist_id": "r11wxPI0M"
+    },
+    {
+      "id": "Sk12xDLCM",
+      "title": "Der Kuss",
+      "year": 1908,
+      "category": "Painting",
+      "img_url": "http://www.klimt.com/documents/pictures/en/women/klimt-der-kuss-1908.thumb.333x0x0x0x100x0x0x0.jpg",
+      "artist_id": "S1YPeP8Cf"
+    }
+  ]
+}
