@@ -13,10 +13,12 @@ class Model {
 
   create (body) {
     const resource = { ...body, id: id() }
-    return db
+    const result = db
       .get(this.table)
       .push(resource)
-      .write()[0]
+      .write()
+
+    return result[result.length - 1]
   }
 
   update (id, body) {
